@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Javascript</title> 
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cedarville+Cursive&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+CU+Guides&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ruda:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+            <div class="container">
+                <div class= "header__wrapper">
+                    <div class="header__cover">
+                    <a href="#" class="header__logo"><img src="./images/Vector (5).svg" width="22" height="22" alt="logo"></a>
+                    <h4 class="header__subtitle">Xarajatlar daftari</h4>
+                    </div>
+                    <div class="text__wrapper">
+                        <a href="/" class="header__link">⌂ Bosh sahifa</a>
+                        <a href="/" class="header__link">Hisobotlar</a>
+                        <a href="/" class="header__link">Sozlamalar</a>
+                    </div>
+
+                </div>
+
+            </div>
+            </div>
+    </header>
+
+    <!-- header finish -->
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero__subtitle">Xarajatlar daftari</h1>
+                <p class="hero__text">Kundalik xarajatlaringizni nazorat qiling</p>
+                <div class="hero__wrapper">
+                    <div class="expence">
+                        <p class="expence__text">Jami xarajatlar</p>
+                        <h3 class="expence__title exp__title">0</h3>
+                    </div>
+                    <div class="expence">
+                        <p class="expence__text">Xarajatlar soni</p>
+                        <h3 class="expence__title exp__subtitle" >0</h3>
+                    </div>
+                    <div class="expence">
+                        <p class="expence__text">Eng katta xarajat</p>
+                        <h3 class="expence__title">650 000 so‘m</h3>
+                    </div>
+
+                </div>
+        </section>
+
+        <!-- section 1 finish -->
+
+        <div class="wrapper">
+        <section class="cover">
+            <div class="container">
+                <div>
+                    <h2 class="cover__subtitle">Yangi xarajat</h2>
+                    <form class="form">
+                        <label class="lbl">Nomi</label>
+                        <input class="inp" type="text" placeholder="Xarajat nomini kiriting">
+
+                        <label class="lbl">Summa (so‘m)</label>
+                        <input class="number" type="number" placeholder="0">
+
+                        <label class="lbl">Kategoriya</label>
+                        <select class="category">
+                            <option value="Barchasi">Barchasi</option>
+                            <option value="Oziq-ovqat">Oziq-ovqat</option>
+                            <option value="Transport">Transport</option>
+                            <option value="Talim">Ta’lim</option>
+                            <option value="Boshqa">Boshqa</option>
+                        </select>
+                        <button class="cover__btn">＋ Xarajat qo‘shish</button>
+                    </form>
+                </div>
+
+            </div>
+        </section> 
+
+        <!-- section 2 finish -->
+
+        <section class="box">
+            <div class="container">
+                <h2 class="box__subtitle">Xarajatlar ro‘yxati</h2>
+                <div class="box__wrapper">
+                   <button class="btn">Barchasi</button>
+                   <button class="box__btn">Oziq-ovqat</button>
+                   <button class="box__btn">Transport</button>
+                   <button class="box__btn">Ta’lim</button>
+                   <button class="box__btn">Boshqa</button>
+                </div>
+                <ul class="list"></ul>
+            </div>
+        </section>
+        </div>
+    
+    </main>
+
+
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
